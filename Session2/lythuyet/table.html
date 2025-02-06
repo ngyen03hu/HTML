@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  teble bangr
+      td : cot
+      tr : hang 
+      th :  dùng trong thead muốn nhấn mạng nội dung 
+      được căn trính giũa bôi đập
+    
+
+      ** cac thuoc tinh cua bang (Atribute)
+      border : dường viền của bảng (đặt trong thẻ mở của tabletable)
+      callpandincallpandingg: khoang cach tu vien cua cot den noi dung 
+      cellspansing : khoang cach tu vien cua bang den vien cua cot 
+      colspan : gop cac cot
+      rowspan : gop cac hang 
+
+      -->
+
+    <!-- <table border="1">
+
+        <tr>
+            <td>STT</td>
+            <td>TEN</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguen Van A</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>TRan thi b </td>
+        </tr> -->
+    </table>
+    
+    <table border="1" cellpadding="15" cellspacing="5">
+        <caption> quan ly sinh vien </caption>
+        <thead>
+            <!-- phan dau cua bang -->
+            <tr>
+                <th>STT</th>
+                <th bgcolor="red">TEN</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <!-- phan than cua bnag  -->
+            <tr>
+                <td align="center" rowspan="2">1</td>
+                <td>Nguen Van A</td>
+
+            </tr>
+            <tr>
+                <!-- <td align="center">2</td> -->
+                <td > TRan thi b </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- phan chan cua bang  -->
+             <tr>
+                <td colspan="2"> tong so sinh vien :  2</td>
+             </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
