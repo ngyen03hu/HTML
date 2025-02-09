@@ -2,30 +2,107 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
-        integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fomr đăng kí</title>
 </head>
 
 <body>
-    <form action="">
-        <h4>Billing</h4>
-        <span><i class="fa fa-camera-retro fa-lg"></i></span>
-        <span>Fullname</span><br>
-        <input type="text" placeholder="john M.Doe"><br>
-        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <span>Email</span><br>
-        <input type="text" placeholder="john@gamil.comcom"><br>
-        <span><i class="fa fa-id-card-o" aria-hidden="true"></i></span>
-        <span>Address</span><br>
-        <input type="text" placeholder="542W.15th Street"><br>
+    <form>
+        <table>
+            <tr>
+                <td>Họ và Tên:</td>
+                <td><input type="text" name="ht" /><br /></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" name="date" /><br /></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gender" value="male" />
+                    <label name="male">Nam</label>
+                    <input type="radio" name="gender" value="female" />
+                    <label name="male">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel" name="email" /><br /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" /><br /></td>
+            </tr>
+            <tr>
+                <td>Vai trò công ty:</td>
+                <td>
+                    <select name="vaitrocongty">
+                        <option value="1">
+                            CEO (Chief Executive Officer) – Giám đốc điều hành
+                        </option>
+                        <option value="2">
+                            CFO (Chief Financial Officer) – Giám đốc tài chính
+                        </option>
+                        <option value="3">
+                            CMO (Chief Marketing Officer) – Giám đốc Marketing
+                        </option>
+                        <option value="4">
+                            CLO (Chief Legal Officer) – Giám đốc pháp lý
+                        </option>
+                        <option value="5">
+                            CCO (Chief Commercial Officer) – Giám đốc thương mại
+                        </option>
+                        <option value="6">
+                            COO (Chief Operations Officer) – Giám đốc vận hành
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quy mô công ty:</td>
+                <td>
+                    <select name="quymocongty">
+                        <option value="1">Quy mô doanh nghiệp lớn</option>
+                        <option value="2">Quy mô doanh nghiệp vừa</option>
+                        <option value="3">Quy mô doanh nghiệp nhỏ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ngành nghề công ty</td>
+                <td><input type="text" name="nganh" /></td>
+            </tr>
 
+            <tr>
+                <td>Lý do tham gia câu lạc bộ:</td>
+                <td><textarea name="lydo" rows="2" cols=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Kinh nghiệm lãnh đạo:</td>
+                <td><textarea name="lydo" rows="2" cols=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Mục tiêu khi tham gia câu lạc bộ:</td>
+                <td><textarea name="lydo" rows="2" cols=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Chương trình sự kiện muốn tham gia:</td>
+                <td>
+                    <label><input type="checkbox" name="sukien" value="Networking" />Networking</label>
+                    <label><input type="checkbox" name="sukien" value="workshops" />workshops</label>
+                    <label><input type="checkbox" name="sukien" value="ht" />Hội thảo</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Đăng ký nhận bản tin:</td>
+                <td><input type="checkbox" name="bantin" value="co" /> có</td>
+            </tr>
+            <tr>
+                <td><button>Đăng kí hội viên</button></td>
+            </tr>
+        </table>
     </form>
 </body>
 
