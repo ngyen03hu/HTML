@@ -1,0 +1,30 @@
+.Wellcome {
+    background-color: rgb(228, 244, 244);
+}
+
+.th {
+    color: aliceblue;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.BANG {
+    text-align: center;
+}
+
+.mot {
+    background-color: rgb(221, 235, 235);
+}
+
+.hai {
+    background-color: white;
+}
+
+.ba {
+    background-color: rgb(222, 237, 235);
+}
+
+.table {
+    width: 100%;
+}

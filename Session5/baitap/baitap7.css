@@ -1,0 +1,45 @@
+.div1 {
+
+    background-color: rgb(224, 223, 222);
+
+}
+
+.name {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ID {
+    color: white;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ID2 {
+    background-color: white;
+}
+
+.ID4 {
+    background-color: white;
+}
+
+.viewbut {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px;
+    border: 0px;
+}
+
+.upBut {
+    background-color: #edcd1c;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border: 0px;
+}
+
+.delBut {
+    background-color: #cc1f1f;
+    color: white;
+    padding: 7px;
+    border: 0px;
+}
