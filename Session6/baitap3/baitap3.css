@@ -1,0 +1,56 @@
+.haerd {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 80%;
+    justify-content: center;
+
+}
+
+.projet {
+    background-color: rgb(255, 253, 253);
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 24.66%;
+    height: 20%;
+    border: 20px;
+}
+
+.footer {
+    background-color: rgb(233, 233, 232);
+    text-align: center;
+    height: 30px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.a {
+    display: inline-block;
+}
+
+.aj {
+    text-align: fade;
+}
+
+.a {
+    width: 80%;
+}

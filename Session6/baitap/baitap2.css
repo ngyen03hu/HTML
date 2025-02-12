@@ -1,0 +1,15 @@
+.div1 {
+    background-color: rgb(255, 249, 249);
+    border-radius: 2px;
+    width: 180px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    color: azure;
+    width: 100%
+}
