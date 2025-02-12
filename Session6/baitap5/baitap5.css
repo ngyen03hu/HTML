@@ -1,0 +1,42 @@
+.hread {
+    background-color: rgb(47, 255, 0);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mylogo {
+    width: 80%;
+    display: inline-block;
+}
+
+.a {
+    text-align: fade;
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+    background-color: #e8e5e5;
+}
+
+.get {
+    background-color: forestgreen;
+    color: white;
+}
+
+.jj {
+    background-color: rgb(196, 178, 178);
+    color: rgb(0, 0, 0);
+    width: 33%;
+    height: 20%;
+    border: 20px;
+}
+
+.footer {
+    font-size: 10px;
+    color: white;
+    background-color: rgb(17, 16, 16);
+    text-align: center;
+    padding: 2px;
+}
