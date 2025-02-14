@@ -1,0 +1,31 @@
+.head {
+    border-left: 7px solid rgb(255, 97, 22);
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+}
+
+.footer {
+    width: 300px;
+}

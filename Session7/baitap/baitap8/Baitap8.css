@@ -1,0 +1,42 @@
+.head {
+    background-color: rgb(238, 230, 230);
+    width: 500px;
+}
+
+button {
+    background-color: rgb(255, 238, 202);
+    color: rgb(189, 56, 3);
+}
+
+.lnc {
+    color: rgb(55, 116, 255);
+}
+
+.progress-container {
+    width: 100%;
+    background-color: rgb(255, 238, 202);
+    border-radius: rgb(229, 120, 9) 25px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 76%;
+    height: 5px;
+    background-color: #c85e28;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+.ha1 {
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.ha2 {
+
+    width: 30px;
+    border-radius: 50%;
+}

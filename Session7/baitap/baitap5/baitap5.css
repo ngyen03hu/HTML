@@ -1,0 +1,72 @@
+.div1 {
+    width: 300px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    border-radius: 500px;
+
+}
+
+h2 {
+    position: relative;
+    top: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.herad {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(237, 26, 53);
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    top: -30px;
+    right: -30px;
+}
+
+.data {
+    color: rgb(101, 101, 101);
+}
+
+.cycle {
+    color: rgb(253, 139, 0);
+}
+
+.SD {
+    color: rgb(101, 101, 101);
+}
+
+.register {
+    height: 30px;
+    width: 270px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(191, 20, 44);
+    border-radius: 30px;
+    border: 0;
+    font-weight: bolder;
+}
+
+.details {
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    color: rgb(191, 20, 44);
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.main {
+    background-color: aliceblue;
+}

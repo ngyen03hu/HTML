@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 5px solid yellow;
+    padding: 100px;
+}
+
+/* 
+Witd = bordr + padding + content 
+*/
+.conten {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+a {
+    margin-right: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

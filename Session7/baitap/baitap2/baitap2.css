@@ -1,0 +1,40 @@
+table {
+    border: 10px;
+}
+
+.table1 {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(224, 220, 220);
+}
+
+td {
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(33, 33, 133);
+}
+
+.table2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(213, 209, 209);
+}
+
+td {
+    background-color: white;
+}
+
+.td1 {
+    width: 100px;
+}
+
+.sd {
+    background-color: rgb(213, 209, 209);
+}
