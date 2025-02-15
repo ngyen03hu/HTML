@@ -1,0 +1,45 @@
+.all {
+    width: 5px;
+}
+
+h3 {
+    font-size: 30px;
+    height: 50px;
+    border-bottom: 5px solid sandybrown;
+}
+
+.heard {
+    width: 200px;
+}
+
+.tr1 {}
+
+.teli {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.tr3 {
+    width: 100px;
+    height: 100px;
+    opacity: 0.4;
+}
+
+.teli2 {
+    width: 5px;
+    height: 10px;
+}
+
+.tr4 {
+    width: 500px;
+    height: 70px;
+}
+
+button {
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: crimson;
+    border: 2px solid red;
+}
