@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    color: brown;
+    bottom: 150px;
+    align-items: center;
+
+}
+
+.img {
+
+
+    width: 900px;
+    height: 300px;
+    background-image: url('https://i.pinimg.com/736x/37/57/99/375799360455f7ef2f7e5b9ed4c5eb23.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.main_1 {
+    display: flex;
+}
+
+.item_1 {
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/dc/32/9b/dc329b6a709f066cfc1c77223731298e.jpg');
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_2 {
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/dc/32/9b/dc329b6a709f066cfc1c77223731298e.jpg');
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_3 {
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/dc/32/9b/dc329b6a709f066cfc1c77223731298e.jpg');
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_2 {
+    display: flex;
+}
+
+.item_4 {
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/dc/32/9b/dc329b6a709f066cfc1c77223731298e.jpg');
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: aliceblue;
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+
+}
+
+button:hover {
+    transform: scale(1.4);
+    color: brown;
+    margin: 10px;
+    align-items: center;
+    background-color: white;
+    width: 270px;
+    height: 30px;
+    border: 50;
+    text-align: center;
+}
+
+.item_6 {
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/dc/32/9b/dc329b6a709f066cfc1c77223731298e.jpg');
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

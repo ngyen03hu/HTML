@@ -4,8 +4,7 @@
 }
 
 a {
-    display: flex;
-    justify-content: flex-start;
+    margin-left: 15px;
     color: white;
     text-decoration: none;
 }
@@ -18,11 +17,11 @@ a {
 }
 
 .heard {
-    right: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
     font-size: 10px;
     height: 30px;
-    width: 800px;
+    width: 100%;
     background-color: #333333;
     display: flex;
     align-items: center;
@@ -31,20 +30,16 @@ a {
 
 }
 
-.home {
-    justify-content: flex-end;
-    display: flex;
-}
-
 h2 {
-
     left: 300px;
 }
 
 .boody {
+    margin-left: 200px;
     background-color: rgb(244, 244, 244);
     width: 600px;
     height: 190px;
+    border-radius: 5px;
 }
 
 .p1 {
@@ -52,9 +47,11 @@ h2 {
 }
 
 .boody_2 {
+    margin-left: 200px;
     background-color: rgb(244, 244, 244);
     width: 600px;
     height: 300px;
+    border-radius: 5px;
 }
 
 .p2 {
@@ -62,14 +59,14 @@ h2 {
     text-shadow: 0px;
 }
 
-.fooret {
+.footer {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     margin-top: 10px;
     font-size: 9px;
     height: 30px;
-    width: 800px;
+    width: 100%;
     background-color: #333333;
     display: flex;
     align-items: center;
