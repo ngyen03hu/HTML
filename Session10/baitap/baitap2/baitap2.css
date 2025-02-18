@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(249, 250, 252);
+}
+
+.Football {
+    height: 300px;
+}
+
+.BAscket {
+    height: 300px;
+}
+
+.item {
+    width: 20%;
+}
+
+.CAR {
+    height: 300px;
+}
+
+.tile {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, black, white);
+    background-clip: text;
+    color: transparent;
+}
+
+.captioon {
+    font-size: 70px;
+}
+
+img {
+    width: 100%;
+    height: 700px;
+
+}
+
+
+
+.contert {
+    gap: 20px;
+    display: flex;
+    width: 100%;
+}

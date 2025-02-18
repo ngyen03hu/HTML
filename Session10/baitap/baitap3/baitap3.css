@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conter {
+    background-color: whitesmoke;
+
+    width: 50%;
+    height: 20%;
+}
+
+.img_pepleo {
+    margin: 10px;
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+}
+
+
+.img_xe {
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.pepleo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+img {
+    width: 95%;
+    height: 100%;
+}
+
+.p1 {
+    font-size: 15px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.Tile {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nut {
+    position: absolute;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 260px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: rgb(247, 247, 247);
+    border: 3px solid rgb(239, 231, 231);
+}
+
+button:hover {
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}

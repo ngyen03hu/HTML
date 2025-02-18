@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.catergoy {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40%;
+    background-color: rgb(186, 186, 186);
+    flex-direction: column;
+}
+
+.Tieu_de {
+    margin: 20px;
+}
+
+img {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tile_day {
+    display: flex;
+}
+
+.tile_01 {
+    margin: 20px;
+}
+
+.tile_02 {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 30%;
+    width: 10%;
+    height: 15px;
+}
+
+
+.main_01 {
+    display: flex;
+    justify-items: center;
+}
+
+.main_02 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_03 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon_all {
+    font-size: 200%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
+}
+
+.tile_fooret {
+    display: flex;
+    justify-content: center;
+}
