@@ -1,0 +1,44 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 550px;
+    background-color: rgb(248, 249, 250);
+}
+
+.herd {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+
+}
+
+.herd_lable-input {
+    margin: 15px;
+}
+
+h1 {
+    margin: 15px;
+}
+
+.input {
+    margin: 5px;
+    width: 50%;
+    height: 50px;
+}
+
+.boody {
+    height: 20px;
+    display: flex;
+}
+
+.boody_02 {
+    display: flex;
+}
+
+.input_01 {
+    margin: 15px;
+}
