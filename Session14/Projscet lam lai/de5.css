@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1440px;
+    height: 111px;
+    background-color: #FEF0E3;
+}
+
+.header .container1 {
+    width: 1240px;
+    height: 43px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+.header .container1 span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .container1 .item1 {
+    width: 268px;
+    height: 43px;
+}
+
+.header .container1 span {
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.header .container1 .item1 span {
+    font-size: 16px;
+}
+
+.header .container1 .item1 button {
+    border: none;
+    font-weight: 500;
+    border-radius: 32px;
+    width: 180px;
+    height: 43px;
+    background-color: #000000;
+    color: white;
+}
+
+.introduction {
+    width: 1440px;
+    height: 913px;
+    display: flex;
+}
+
+.introduction .header_content {
+    width: 720px;
+    background-color: #F9DBC1;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.introduction img {
+    width: 720px;
+    border-top: 2px solid black;
+}
+
+.introduction .header_content .header_text {
+    width: 656px;
+    height: 311px;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    top: 230px;
+    left: 30px;
+}
+
+.introduction .header_content .header_text .name {
+    width: 400px;
+    height: 117px;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.introduction .header_content .header_text .title {
+    width: 456px;
+    height: 49px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.introduction .header_content .header_text .content {
+    width: 656px;
+    height: 53px;
+    display: flex;
+    background-color: #fef0e300;
+    position: relative;
+    top: 50px;
+}
+
+.introduction .header_content .header_text .content .item {
+    display: flex;
+    gap: 30px;
+}
+
+.introduction .header_content .header_text .content .item .number {
+    width: 25%;
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.introduction .header_content .header_text .content .item .name {
+    width: 40%;
+    position: relative;
+    margin-left: 10px;
+    top: 10px;
+    font-size: 24px;
+}
+
+.introduction .header_content .button {
+    width: 222px;
+    height: 50px;
+    border-radius: 32px;
+    background-color: #AC82FC;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    top: 270px;
+    left: 30px;
+}
+
+.work {
+    width: 1440px;
+    height: 1309px;
+    background-color: #C6C2CD;
+}
+
+.work .header {
+    width: 1312px;
+    height: 67px;
+    text-align: center;
+    background-color: #ad82fc00;
+
+    margin-left: 65px;
+}
+
+.work .header p {
+    color: #36009D;
+    font-size: 24px;
+}
+
+.work .header h1 {
+    font-size: 48px;
+}
+
+.work .cards {
+    width: 1312px;
+    height: 1128px;
+    position: relative;
+    left: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.work .cards .cardrow {
+    margin-top: 20px;
+}
+
+.work .cards .cardrow .card {
+    margin-top: 20px;
+    width: 640px;
+    height: 552px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+.work .cards .cardrow .card img {
+    width: 592px;
+    height: 377px;
+    margin-left: 23px;
+    margin-top: 23px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.work .cards .card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 23px;
+}
+
+.work .cards .card p {
+    color: #565656;
+    margin-left: 23px;
+    margin-right: 23px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.contact {
+    background-color: #FFD7D4;
+    width: 1240px;
+    height: 306px;
+    gap: 10px;
+    border-bottom-width: 2px;
+    padding-top: 95px;
+    padding-right: 100px;
+    padding-bottom: 95px;
+    padding-left: 100px;
+}
+
+.contact .content {
+    width: 1240px;
+    height: 306px;
+    background-color: #ad82fc00;
+    text-align: center;
+}
+
+.contact .content .information {
+    width: 1240px;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.contact .content .information .item {
+    width: 316px;
+    height: 72px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    align-content: center;
+}
+
+.contact .content .information .img {
+    width: 91px;
+    height: 79px;
+    background-color: #AC82FC;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.contact .content .information .name {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.icon_near_footer {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.contact .content .information .text {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.contact .content h1 {
+    font-size: 48px;
+}
+
+.contact .content .title {
+    position: relative;
+    left: 420px;
+    width: 404px;
+    height: 59px;
+    color: #565656;
+    line-height: 24px;
+}
+
+.footer {
+    width: 1440px;
+    height: 11px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width :1200px) {
+    .header {
+        width: 1024px;
+        height: 73px;
+    }
+
+    .header .container1 {
+        width: 982px;
+        height: 43px;
+        position: relative;
+        left: 20px;
+        top: 15px;
+    }
+
+    .introduction {
+        width: 1024px;
+        height: 659px;
+    }
+
+    .introduction .header_content {
+        width: 512px;
+        height: 659px;
+    }
+
+    .introduction .header_content .header_text {
+        width: 448px;
+        height: 434px;
+        top: 40px;
+        left: 30px;
+    }
+
+    .introduction .header_content .button {
+        top: 100px;
+    }
+
+    .introduction img {
+        width: 512px;
+        height: 659px;
+    }
+
+    .introduction .header_content .header_text .content {
+        width: 448px;
+        flex-wrap: wrap;
+    }
+
+    .work {
+        width: 1024px;
+        height: 1093px;
+    }
+
+    .work .header {
+        width: 960px;
+        height: 67px;
+    }
+
+    .work .cards {
+        width: 960px;
+        height: 912px;
+    }
+
+    .work .cardrow {
+        width: 960px;
+        height: 444px;
+    }
+
+    .work .cardrow .card {
+        width: 464px;
+        height: 444px;
+    }
+
+    .contact {
+        width: 1024px;
+        height: 352.71112060546875px;
+    }
+
+    .footer {
+        width: 1024px;
+        height: 52.622222900390625px;
+    }
+}
+
+@media screen and (max-width:768px) {}

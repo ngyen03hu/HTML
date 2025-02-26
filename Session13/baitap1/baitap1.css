@@ -4,7 +4,36 @@
     box-sizing: 0;
 }
 
+
+
+
 .conter {
     display: flex;
     justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__img-producter {
+    display: flex;
 }
