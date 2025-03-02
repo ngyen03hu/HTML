@@ -1,109 +1,109 @@
 let number = Number(prompt("mời bạn nhập vào giá trị cần chuyển sang dạng chữ từ 0=>999"));
 
-let tram = Math.floor(number / 100);
-let chuc = Math.floor((number % 100) / 10);
-let donVi = number % 10;
+let hundred = Math.floor(number / 100);
+let dozen = Math.floor((number % 100) / 10);
+let unit = number % 10;
 if (number > 0 && number < 1000) {
-    switch (tram) {
+    switch (hundred) {
         case 1:
-            tram = "một trăm";
+            hundred = "một trăm";
             break;
         case 2:
-            tram = "hai trăm";
+            hundred = "hai trăm";
             break;
         case 3:
-            tram = "ba trăm";
+            hundred = "ba trăm";
             break;
         case 4:
-            tram = "bốn trăm";
+            hundred = "bốn trăm";
             break;
         case 5:
-            tram = "năm trăm";
+            hundred = "năm trăm";
             break;
         case 6:
-            tram = "sáu trăm";
+            hundred = "sáu trăm";
             break;
         case 7:
-            tram = "bảy trăm";
+            hundred = "bảy trăm";
             break;
         case 8:
-            tram = "tám trăm";
+            hundred = "tám trăm";
             break;
         case 9:
-            tram = "chín trăm";
+            hundred = "chín trăm";
             break;
 
         default:
             break;
     }
-    switch (chuc) {
+    switch (dozen) {
         case 0:
-            chuc = "linh";
+            dozen = "linh";
             break;
         case 1:
-            chuc = "mười";
+            dozen = "mười";
             break;
         case 2:
-            chuc = "hai mươi";
+            dozen = "hai mươi";
             break;
         case 3:
-            chuc = "ba mươi";
+            dozen = "ba mươi";
             break;
         case 4:
-            chuc = "bốn mươi";
+            dozen = "bốn mươi";
             break;
         case 5:
-            chuc = "năm mươi";
+            dozen = "năm mươi";
             break;
         case 6:
-            chuc = "sáu mươi";
+            dozen = "sáu mươi";
             break;
         case 7:
-            chuc = "bảy mươi";
+            dozen = "bảy mươi";
             break;
         case 8:
-            chuc = "tám mươi";
+            dozen = "tám mươi";
             break;
         case 9:
-            chuc = "chín mươi";
+            dozen = "chín mươi";
             break;
 
         default:
             break;
     }
-    switch (donVi) {
+    switch (unit) {
         case 1:
-            donVi = "một";
+            unit = "một";
             break;
         case 2:
-            donVi = "hai";
+            unit = "hai";
             break;
         case 3:
-            donVi = "ba";
+            unit = "ba";
             break;
         case 4:
-            donVi = "bốn";
+            unit = "bốn";
             break;
         case 5:
-            donVi = "năm";
+            unit = "năm";
             break;
         case 6:
-            donVi = "sáu";
+            unit = "sáu";
             break;
         case 7:
-            donVi = "bảy";
+            unit = "bảy";
             break;
         case 8:
-            donVi = "tám";
+            unit = "tám";
             break;
         case 9:
-            donVi = "chín";
+            unit = "chín";
             break;
 
         default:
             break;
     }
-    alert(`${tram} ${chuc} ${donVi}`);
+    alert(`${hundred} ${dozen} ${unit}`);
 } else {
     alert("lỗi cú pháp");
 }
