@@ -20,7 +20,7 @@ if (!isNaN(number) && number > 0) {
         num++;
     }
 
-    console.log(result);
+    alert(result);
 } else {
-    console.log("Không hợp lệ");
+    alert("Không hợp lệ");
 }

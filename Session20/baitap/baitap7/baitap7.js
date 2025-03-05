@@ -5,7 +5,7 @@ if (number && number >= 2) {
     for (let i = 2; i < number; i++) {
         sum[i] = sum[i - 1] + sum[i - 2];
     }
-    console.log(sum);
+    alert(sum);
 } else {
     alert("Không hợp lệ");
 }
