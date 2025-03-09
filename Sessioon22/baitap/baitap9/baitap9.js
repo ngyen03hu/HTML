@@ -9,5 +9,5 @@ for (let i = 0; i < arr_length; i++) {
         }
     }
 }
-arr.sort();
-alert(arr);
+arr.sort((a, b) => a - b);
+document.write(`Mảng sau khi loại bỏ phần tử trùng lặp: ${arr}`);
