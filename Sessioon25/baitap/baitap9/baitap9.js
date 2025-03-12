@@ -1,4 +1,4 @@
-let users = ["Vuong03032006@gamil.com"]; // Mảng chứa các tài khoản người dùng
+let users = ["Vuong03032006@gamil.com"];
 let email = prompt("moi ban nhap email");
 
 function registerEmail(email) {
