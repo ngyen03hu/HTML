@@ -1,15 +1,17 @@
-function splitArrayIntoChunks(array, chunkSize) {
-    const result = [];
-    for (let i = 0; i < array.length; i += chunkSize) {
-        const chunk = array.slice(i, i + chunkSize);
-        result.push(chunk);
+function isArithmeticSequence(array) {
+    if (array.length < 2) {
+        return false;
     }
-    return result;
-}
+    const difference = array[1] - array[0];
 
-// Ví dụ sử dụng:
-const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
-const chunkSize = 3;
-const result = splitArrayIntoChunks(myArray, chunkSize);
-console.log(result);
-// Kết quả: [[1, 2, 3], [4, 5, 6], [7, 8]]
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] - array[i - 1] !== difference) {
+            return false;
+        }
+    }
+    return true;
+}
+const array1 = [2, 4, 6, 8];
+const array2 = [1, 2, 4, 8];
+console.log(isArithmeticSequence(array1));
+console.log(isArithmeticSequence(array2)); 

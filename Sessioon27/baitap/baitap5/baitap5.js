@@ -6,11 +6,7 @@ function splitArrayIntoChunks(array, chunkSize) {
     }
     return result;
 }
-
-// Ví dụ sử dụng:
-
 let myArray = [1, 2, 3, 4, 5, 6, 7, 8];
 let chunkSize = 3;
 let result = splitArrayIntoChunks(myArray, chunkSize);
 console.log(result);
-// Kết quả: [[1, 2, 3], [4, 5, 6], [7, 8]]
