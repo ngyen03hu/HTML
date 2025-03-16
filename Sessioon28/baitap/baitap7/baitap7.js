@@ -20,5 +20,4 @@ let students = [
 
 ];
 let arr = sumStunden(students);
-console.log
-    (arr);
+console.log(arr);
