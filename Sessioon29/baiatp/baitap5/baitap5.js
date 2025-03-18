@@ -1,11 +1,12 @@
 let users = [];
 let choice;
 do {
-    console.log("1. Đăng ký người dùng mới");
-    console.log("2. Đăng nhập người dùng");
-    console.log("3. Thoát");
+    choice = Number(prompt(`
 
-    choice = +prompt("Nhập lựa chọn của bạn");
+    1. Đăng ký người dùng mới
+    2. Đăng nhập người dùng
+    3. Thoát
+    Nhập lựa chọn của bạn`));
 
     switch (choice) {
         case 1:
@@ -37,12 +38,12 @@ function registerUser(users) {
 
         if (index === -1) {
             users.push(user);
-            console.log("Đăng ký thành công.");
+            alert("Đăng ký thành công.");
         } else {
-            console.log("Email đã tồn tại.");
+            alert("Email đã tồn tại.");
         }
     } else {
-        console.log("Email hoặc mật khẩu không hợp lệ.");
+        alert("Email hoặc mật khẩu không hợp lệ.");
     }
 }
 
@@ -55,10 +56,10 @@ function loginUser(users) {
     });
 
     if (user) {
-        console.log("Đăng nhập thành công.");
-        console.log("Thông tin người dùng:");
-        console.table(user);
+        alert("Đăng nhập thành công.");
+        alert("Thông tin người dùng:");
+        alert(user);
     } else {
-        console.log("Đăng nhập không thành công.");
+        alert("Đăng nhập không thành công.");
     }
 }

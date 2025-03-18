@@ -94,22 +94,22 @@ function sortWorks() {
 do {
     choice = +prompt("MENU\n1. Thêm công việc mới.\n2. Hiển thị tất cả các công việc.\n3. Cập nhật trạng thái công việc theo id.\n4. Lọc các công việc theo trạng thái hoàn thành, chưa hoàn thành.\n5. Sắp xếp các công việc theo trạng thái công việc.\n6. Thoát.\nLua chon cua ban:");
     switch (choice) {
-        case 1:// Thêm công việc mới.id, tên, mô tả, thời gian bắt đầu và trạng thái.
+        case 1:
             addWork();
             break;
-        case 2:// Hiển thị tất cả các công việc.
+        case 2:
             showWorks();
             break;
-        case 3:// Cập nhật trạng thái công việc theo id.
+        case 3:
             updateStatusItem();
             break;
-        case 4:// Lọc các công việc theo trạng thái hoàn thành, chưa hoàn thành.
+        case 4:
             filterWorks();
             break;
-        case 5:// Sắp xếp các công việc theo trạng thái công việc.
+        case 5:
             sortWorks();
             break;
-        case 6:// thoat
+        case 6:
             alert("Thoat");
             break;
         default:

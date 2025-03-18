@@ -126,16 +126,16 @@ function sortItemsByPrice() {
 do {
     choice = +prompt("MENU\n1. Thêm sản phẩm vào danh sách sản phẩm.\n2. Hiển thị tất cả sản phẩm.\n3. Hiển thị chi tiết sản phẩm theo id.\n4. Cập nhật thông tin sản phẩm(name, price, category, quantity) theo id sản phẩm.\n5. Xóa sản phẩm theo id.\n6. Lọc sản phẩm theo khoảng giá.\n7. Thoát.");
     switch (choice) {
-        case 1:// Thêm sản phẩm vào danh sách sản phẩm.
+        case 1:
             addItem();
             break;
-        case 2:// Hiển thị tất cả sản phẩm.
+        case 2:
             showItems();
             break;
-        case 3:// Hiển thị chi tiết sản phẩm theo id.
+        case 3:
             showDetailItem();
             break;
-        case 4:// Cập nhật thông tin sản phẩm(name, price, category, quantity) theo id sản phẩm.
+        case 4:
             updateItem();
             break;
         case 5:// Xóa sản phẩm theo id.
