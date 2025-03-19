@@ -163,12 +163,14 @@ function displayTotalPhoneValue() {
 
 function getTotalPhonesByCompany() {
     let counts = {};
-    for (let i = 0; i < phone.length; i++) {
-        const company = phone[i].company.trim().toLowerCase();
-        if (counts[company]) {
-            counts[company] += phone[i].quantity;
-        } else {
-            counts[company] = phone
-        }
+
+    phoneList.forEach(phone => {
+        let company = phone.company.trim().toLowerCase();
+        counts[company] = (counts[company] || 0) + phone.quantity;
+    });
+
+    console.log("Tổng số lượng điện thoại theo từng hãng:");
+    for (let company in counts) {
+        console.log(`${company.charAt(0).toUpperCase() + company.slice(1)}: ${counts[company]}`);
     }
 }

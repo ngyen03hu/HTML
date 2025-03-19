@@ -1,0 +1,11 @@
+.content {
+    color: aqua;
+}
+
+.show {
+    background-color: rgb(232, 4, 4);
+}
+
+.hide {
+    background-color: pink;
+}
