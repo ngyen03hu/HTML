@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay đổi kích thước chữ</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #text {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #increase {
+            background-color: #4CAF50;
+            /* Màu xanh */
+            color: white;
+        }
+
+        #decrease {
+            background-color: #f44336;
+            /* Màu đỏ */
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="text">Đây là đoạn văn bản ví dụ. Bạn có thể thay đổi kích thước chữ bằng cách bấm các nút!</p>
+    <div id="buttons">
+        <button id="increase">+</button>
+        <button id="decrease">-</button>
+    </div>
+
+    <script src="./baiatp6.js"></script>
+</body>
+
+</html>
