@@ -30,7 +30,7 @@ let store = [
         price: "11,990,000 VND",
     },
     {
-        img: ".//img/lap1.png",
+        img: "../img/lap.png",
         name: "Loa JBL Charge 5",
         description: "Loa Bluetooth chong nuoc voi am bass manh me va pin 20 gio.",
         price: "3,990,000 VND",

@@ -1,0 +1,33 @@
+  body {
+
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  button {
+      margin: 5px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+  #do {
+      background-color: red;
+      color: white;
+  }
+
+  #xanh {
+      background-color: blue;
+      color: white;
+  }
+
+  #vang {
+      background-color: yellow;
+      color: black;
+  }
+
+  #tim {
+      background-color: purple;
+      color: white;
+  }
